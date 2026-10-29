@@ -49,33 +49,35 @@ Stop the program.
 
 # Mermaid flowchart
 
-```mermaid
 
+## Retail Billing with Multiple Discount Rules
+
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter customer name/]
     B --> C[/Enter number of items/]
     C --> D[Initialize subtotal = 0]
     D --> E[/Enter item name, price and quantity/]
-    E --> F[Calculate amount = price × quantity]
+    E --> F[Calculate amount = price * quantity]
     F --> G[Add amount to subtotal]
     G --> H{More items?}
     H -- Yes --> E
     H -- No --> I[Initialize discount = 0]
-    I --> J{subtotal > 5000?}
-    J -- Yes --> K[Add 10% discount]
-    J -- No --> L{subtotal > 10000?}
+    I --> J{Subtotal > 5000?}
+    J -- Yes --> K[Add 10 percent discount]
+    J -- No --> L{Subtotal > 10000?}
     K --> L
-    L -- Yes --> M[Add additional 5% discount]
-    L -- No --> N{subtotal > 20000?}
+    L -- Yes --> M[Add additional 5 percent discount]
+    L -- No --> N{Subtotal > 20000?}
     M --> N
-    N -- Yes --> O[Add additional 2% discount]
-    N -- No --> P[Limit discount to 20%]
+    N -- Yes --> O[Add additional 2 percent discount]
+    N -- No --> P[Limit discount to 20 percent]
     O --> P
     P --> Q[Calculate final amount]
     Q --> R[/Display detailed bill/]
     R --> S([Stop])
-Note: In the flowchart, each discount condition is checked independently, so applicable discounts are cumulative. The maximum discount is capped at 20%.
-``` 
+```
+
 # Input
 
 text
