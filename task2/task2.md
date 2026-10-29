@@ -54,7 +54,7 @@ Display the monthly bill comparison and end the program.
 
 # Mermaid flowchart
 
-``mermaid
+`mermaid
 
 flowchart TD
     A([Start]) --> B[/Input number of months/]
@@ -84,7 +84,7 @@ flowchart TD
 The program accepts the following inputs from the user.
 
 Input
-
+```
 Description
 
 Example
