@@ -96,8 +96,7 @@ Remaining 50 units:
 Total energy charge = ₹750.
 
 These are example rates for the project, not an official electricity tariff.
-
-3. Mermaid Flowchart
+# Mermaid Flowchart
 
 ```mermaid
 
@@ -123,8 +122,9 @@ flowchart TD
 
     style A fill:#d4edda,stroke:#287a43
     style Q fill:#d4edda,stroke:#287a43
-    style N fill:#fff3cd,stroke:#b8860b
-``` Input
+    style N fill:#fff3cd,stroke:#b8860b 
+# Input
+
 The program accepts the following inputs:
 
 Input
