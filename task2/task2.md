@@ -54,8 +54,8 @@ Display the monthly bill comparison and end the program.
 
 # Mermaid flowchart
 
-`mermaid
 
+```mermaid
 flowchart TD
     A([Start]) --> B[/Input number of months/]
     B --> C[Initialize monthly records]
@@ -69,7 +69,7 @@ flowchart TD
     J --> K[Store month, units and bill]
     K --> L{More months?}
     L -- Yes --> D
-    L -- No --> M[Compare consecutive monthly bills]
+    L -- No --> M[Compare monthly bills]
     M --> N[Calculate percentage change]
     N --> O{Increase greater than 25%?}
     O -- Yes --> P[Display unusual increase warning]
@@ -80,6 +80,8 @@ flowchart TD
     R --> T
     S --> T
     T --> U([End])
+```
+
 # Input
 The program accepts the following inputs from the user.
 
