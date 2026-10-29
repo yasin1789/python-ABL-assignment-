@@ -1,9 +1,9 @@
-Problem Statement
+# Problem Statement
 The aim of this project is to develop a Progressive Electricity Billing System using Python to calculate household electricity bills based on multiple consumption slabs. The system accepts electricity consumption in units (kWh) and calculates charges for each slab progressively.
 
 The program includes fixed charges, surcharges, and rebates to determine the final payable amount. It also records electricity bills for several months, compares monthly bills, and identifies unusual increases in electricity consumption or billing amounts. This system helps households monitor electricity expenses and understand changes in their monthly bills.
 
-2. Algorithm
+# Algorithm
 Start the program.
 
 Define the electricity tariff rates for different consumption slabs.
@@ -99,7 +99,7 @@ These are example rates for the project, not an official electricity tariff.
 
 3. Mermaid Flowchart
 
-mermaid
+```mermaid
 
 flowchart TD
     A([Start]) --> B[Define Slab Rates and Billing Rules]
@@ -124,7 +124,7 @@ flowchart TD
     style A fill:#d4edda,stroke:#287a43
     style Q fill:#d4edda,stroke:#287a43
     style N fill:#fff3cd,stroke:#b8860b
-4. Input
+``` Input
 The program accepts the following inputs:
 
 Input
