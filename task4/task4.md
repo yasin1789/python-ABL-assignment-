@@ -75,7 +75,7 @@ flowchart TD
     Q --> R[/Display detailed bill/]
     R --> S([Stop])
 Note: In the flowchart, each discount condition is checked independently, so applicable discounts are cumulative. The maximum discount is capped at 20%.
-```
+``` 
 # Input
 
 text
